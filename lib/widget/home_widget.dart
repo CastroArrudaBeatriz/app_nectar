@@ -56,13 +56,21 @@ class HomeWidget extends StatelessWidget {
             ),
             Row(
               children: [
-                OfferWidget(pathImage: "assets/images/banana.png",),
+                OfferWidget(
+                    pathImage: "assets/images/banana.png",
+                    title: "Organic Bananas",
+                    description: "7pcs, Priceg",
+                    price: "\$4.99"),
                 SizedBox(
                   width: 10,
                 ),
-                OfferWidget(pathImage: "assets/images/maca.png",),
+                OfferWidget(
+                    pathImage: "assets/images/maca.png",
+                    title: "Red Apple",
+                    description: "1kg, Priceg",
+                    price: "\$4.99"),
               ],
-            )
+            ),
           ],
         ),
       ),
