@@ -56,11 +56,11 @@ class HomeWidget extends StatelessWidget {
             ),
             Row(
               children: [
-                OfferWidget(),
+                OfferWidget(pathImage: "assets/images/banana.png",),
                 SizedBox(
                   width: 10,
                 ),
-                OfferWidget(),
+                OfferWidget(pathImage: "assets/images/maca.png",),
               ],
             )
           ],
